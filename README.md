@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Miyen-Ebi Victory Iyakoregha</h1>
-<h3 align="center">An Azure Cloud/Backend Developer from Canada, with 4 years of Azure and C# experience. Building & maintaining Azure App Services, Azure functions, Azure static web apps and a host of other Azure resources to support and secure azure applications and infrastructure.</h3>
+<p align="center">An Azure Cloud/Backend Developer from Canada, with 4 years of Azure and C# experience. Building & maintaining Azure App Services, Azure functions, Azure static web apps and a host of other Azure resources to support and secure azure applications and infrastructure.</p>
 
 - 🔭 I’m currently working on [ASP.NET Notifications(email & sms) project](https://github.com/Mivezvictory/NotificationApplication.git)
 
