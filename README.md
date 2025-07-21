@@ -24,14 +24,14 @@
 ### 1. **Notifications API**
 - **Stack:** C#, .NET Standard 8, xUnit  
 - **Highlights:**
-    - Core abstractions for a notification system: DTOs (NotificationMessage NotificationTemplate), interfaces (INotificationService, INotificationTemplateRenderer<TModel>, INotificationMessageFactory<TModel>), and custom exceptions (NotificationException, TemplateRenderingException).
+    - Core abstractions for a notification system: DTOs (NotificationMessage, NotificationTemplate), interfaces (INotificationService, INotificationTemplateRenderer<TModel>, INotificationMessageFactory<TModel>), and custom exceptions (NotificationException, TemplateRenderingException).
     - Built-in validation in constructors to enforce non-null/empty fields and fail fast on invalid data.
     - Factory and template-renderer patterns to decouple message construction from delivery and enable pluggable, channel-agnostic implementations.
     - SOLID design with clear separation of concerns—core library has no external dependencies, making it reusable across any .NET host (Web API, console app, Azure Function).
     - Comprehensive unit tests using xUnit covering both success paths and domain-exception scenarios, ensuring high reliability and maintainability. 
 
 - **Goal for project**
-    Host on personal Azure server and make available for resuse.
+    Host on personal Azure server and make available for reuse.
 
 ---
 
