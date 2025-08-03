@@ -21,7 +21,17 @@
 
 ## 📂 Core Projects
 
-### 1. **Notifications API**
+### 1. **Deep-Dive-Recommender**
+- **Stack:** Azure Functions(.Net 8, Isolated), React(vite) + TypeScript, Cosmos DB, Spotify Web API  
+- **Highlights:**
+    - A Spotify inspired serverless playlist curator for music lovers. Will help users explore an artist's complete discography by creating a curated playlist
+      for seleted artist/band, from hits to hidden gems.
+    - Integration with Spotify using Spotify Web API's and Web Playback SDK. 
+
+- **Goal for project**
+    Host on personal Azure server and make available for users on Azure Static Web App.
+
+### 2. **Notifications API**
 - **Stack:** C#, .NET Standard 8, xUnit  
 - **Highlights:**
     - Core abstractions for a notification system: DTOs (NotificationMessage, NotificationTemplate), interfaces (INotificationService, INotificationTemplateRenderer<TModel>, INotificationMessageFactory<TModel>), and custom exceptions (NotificationException, TemplateRenderingException).
