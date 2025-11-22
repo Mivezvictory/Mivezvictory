@@ -21,25 +21,21 @@
 
 ## 📂 Core Projects
 
-### 1. **Deep-Dive-Recommender**
-- **Stack:** Azure Functions(.Net 8, Isolated), React(vite) + TypeScript, Cosmos DB, Spotify Web API  
-- **Highlights:**
-    - A Spotify inspired serverless playlist curator for music lovers. Will help users explore an artist's complete discography by creating a curated playlist
-      for seleted artist/band, from hits to hidden gems.
-    - Integration with Spotify using Spotify Web API's and Web Playback SDK. 
+### 🎧 SpotiNet.Client — Typed Spotify API for .NET
+**Stack:** .NET 8 library, HttpClientFactory, Microsoft.Extensions.\*, System.Text.Json  
+**Highlights:**
+- Typed Spotify Web API client with DI-first setup and built-in resilience (429/5xx retries).
+- Clean errors (`SpotifyApiException`) and async paging with `await foreach`.
+- Core endpoints: `/me`, top items, search, content lookups, playlists (create/add/remove/read).
+- Ships as a NuGet package — **[NuGet](https://www.nuget.org/packages/SpotiNet.Client/)**; samples for console apps and Azure Functions (isolated).
 
-- **Goal for project**
-    Host on personal Azure server and make available for users on Azure Static Web App.
 
-### 2. **Notifications API**
-- **Stack:** C#, .NET Standard 8, xUnit  
-- **Highlights:**
-    - Core abstractions for a notification system: DTOs (NotificationMessage, NotificationTemplate), interfaces (INotificationService, INotificationTemplateRenderer<TModel>, INotificationMessageFactory<TModel>), and custom exceptions (NotificationException, TemplateRenderingException).
-    - Built-in validation in constructors to enforce non-null/empty fields and fail fast on invalid data.
-    - Factory and template-renderer patterns to decouple message construction from delivery and enable pluggable, channel-agnostic implementations.
-    - SOLID design with clear separation of concerns—core library has no external dependencies, making it reusable across any .NET host (Web API, console app, Azure Function).
-    - Comprehensive unit tests using xUnit covering both success paths and domain-exception scenarios, ensuring high reliability and maintainability. 
-
+### 🕸️ Credit Graph Explorer
+**Stack:** Azure Functions (.NET 8, isolated), React (MUI), Azure Storage/Cosmos DB (planned), SpotiNet.Client  
+**Highlights:**
+- Builds a knowledge graph of artists, tracks, and collaborations to visualize “who’s connected to whom.”
+- Explore relationships, filter by era/genre, and export discovery playlists.
+- Designed for low-cost, serverless hosting with CI/CD.
 - **Goal for project**
     Host on personal Azure server and make available for reuse.
 
