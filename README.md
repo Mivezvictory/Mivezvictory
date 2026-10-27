@@ -2,7 +2,7 @@
 
 **Azure Cloud Developer | C# Backend Engineer**
 
-🔭 I’ve been building cloud-native solutions on Azure for 4 years.  
+🔭 I’ve been building cloud-native solutions on Azure for 5 years.  
 🎯 Certified: Microsoft Azure Developer Associate (AZ-204)  
 📫 How to reach me: [mivez70@gmail.com](mailto:mivez70@gmail.com) • [LinkedIn](www.linkedin.com/in/victory-iyakoregha)
 
@@ -43,13 +43,13 @@
 
 ## 🔧 Toolbelt & Certifications
 
-| Cloud & DevOps            | Languages & Frameworks    | Databases & Messaging  | Testing & Monitoring    |
-| ------------------------- | ------------------------- | ---------------------- | ----------------------- |
-| Azure App Service         | C# / .NET 6, 7, 8         | Azure SQL              | xUnit, Azure Monitor    |
-| Azure Functions           | ASP.NET                   | Service Bus, Event Grid| Application Insights    |
-| Logic Apps                | JavaScript (Node.js)      | Blob Storage           | Azure DevOps Pipelines  |
-| Static Web Apps           | React                     |                        | GitHub Actions          |
-| Azure CLI & PowerShell    | PowerShell                |                        |                         |
+| Cloud & DevOps            | Languages & Frameworks        | Databases & Messaging  | Testing & Monitoring    |
+| ------------------------- | ------------------------------| ---------------------- | ----------------------- |
+| Azure App Service         | C# / .NET 6, 7, 8, 10         | Azure SQL              | xUnit, Azure Monitor    |
+| Azure Functions           | ASP.NET                       | Service Bus, Event Grid| Application Insights    |
+| Logic Apps                | JavaScript (Node.js)          | Blob Storage           | Azure DevOps Pipelines  |
+| Static Web Apps           | React                         |                        | GitHub Actions          |
+| Azure CLI & PowerShell    | PowerShell                    |                        |                         |
 
 **Certifications:**  
 - Microsoft Certified: Azure Developer Associate (AZ-204)
